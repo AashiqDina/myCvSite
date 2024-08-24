@@ -1,0 +1,58 @@
+<?php
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/Applications/MAMP/htdocs//reset.css">
+    <link rel="stylesheet" href="/Applications/MAMP/htdocs//Blog.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Blog.css">
+</head>
+<body>
+    <header>
+        <hgroup class="Title">
+            <h1>Aashiq Dina</h1>
+        </hgroup>
+        <div class="Logo">
+            <figure>
+                <a href="AashiqDina-Homepage.html">
+                    <img src="Images/Logo.png" alt="Logo" width="90px">
+                </a>
+            </figure>
+        </div>
+        <div class="Links">
+            <nav>
+                <ul>
+                    <a href="AboutMe.html"> About Me&nbsp;&nbsp;&nbsp;</a>
+                    <a href="Experience.html">Experience&nbsp;&nbsp;&nbsp;</a>
+                    <a href="Education.html">Education&nbsp;&nbsp;&nbsp;</a>
+                    <a href="Skills.html">Skills&nbsp;&nbsp;&nbsp;</a>
+                    <a href="Projects.html">Projects&nbsp;&nbsp;&nbsp;</a>
+                    <a href="LogOut.html" class="LogOut">Log Out</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form method="get" action="http://localhost:8888/TheBlog.php" id="BlogForm">
+        <fieldset class="AddBlog">
+            <legend class="BlogTitle">Add Blog</legend>
+            <p>
+                <input type="text" id="BlogTitle" name="Title" placeholder="Title" class="InputTitle">
+                <br>
+                <br>
+                <textarea name="UserText" id="BlogText" placeholder="Enter your text here" class="InputText"></textarea>
+                <div>
+                    <button type="submit" id="submitButton" onclick="submitForm" class="LoginButton">Post</button>
+                    <br/>
+                    <button type="button" id="clearButton" onclick="ConfirmClear()" class="ClearButton">Clear</button>
+                </div>
+            </p>
+        </fieldset>
+    </form>
+    <script src="Post.js"></script>
+</body>
+</html>

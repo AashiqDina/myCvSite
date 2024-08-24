@@ -1,0 +1,86 @@
+header{
+    background-color: rgb(65, 65, 65);
+    display: block;
+    position: absolute;
+    width: 1210px;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+    color: azure;
+    padding: 0.9em;
+}
+
+body{
+    animation-name: BodyBackground;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(165, 253, 253);
+}
+
+form{
+    position: absolute;
+    top: 240px;
+    left: 362.5px;
+}
+
+.Logo{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.Title{
+    position: absolute;
+    top: 10px;
+    left: 85px;
+    font-size: 40px;
+}
+
+.Links{
+    position: absolute;
+    font-size: 20px;
+    font-family: serif;
+    color: azure;
+    top: 5px;
+    left: 300px;
+}
+
+.LogOutTitle{
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+    font-weight: bolder;
+    color: azure;
+}
+
+.LogOut{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    background-color: navy;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img{
+    user-select: none;
+}
+
+@keyframes BodyBackground {
+    from {
+            background-color: rgb(118, 119, 99);
+         }
+    to   {
+            background-color: rgb(105, 78, 105);
+         }
+}

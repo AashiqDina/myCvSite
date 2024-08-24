@@ -1,0 +1,217 @@
+header{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    color: azure;
+    padding: 0.9em;
+    display: flex;
+    transition: height 0.3s ease;
+    white-space: nowrap;
+}
+
+body{
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+.HeaderContainer{
+    display: flex;
+    align-items: center; 
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(151, 199, 215);
+    text-decoration: none;
+}
+
+
+.Title{
+    position: relative;
+    left: 1.5rem;
+    font-size: 2.5rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Links{
+    position: relative;
+    font-size: 1.5rem;
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(240, 248, 255);
+    left: 2.5rem;
+    top: 0.7rem;
+    display: flex;             
+    flex-wrap: wrap;           
+    list-style-type: none;                 
+    padding: 0.2rem;
+}
+
+.Links li {
+    margin: 0 1rem;    
+}
+
+img{
+    user-select: none;
+}
+
+.LoginIcon{
+    position: relative;
+    display: flex;          
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+    right: 1rem;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+.LoginIconImage{
+    width: 2.5rem
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    top: 1rem;
+}
+
+.Login{
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    border-color: navy;
+    padding: 5rem 4.5rem;
+    border-radius: 20rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.5rem;
+    font-family: "Gill Sans", sans-serif;
+    width: 30rem;
+}
+
+.LogOut{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 1px;
+    color: azure;
+}
+
+.EnterEmail{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    border-radius: 10rem;
+    height: 3rem;
+    width: 100%;
+    border: none;
+}
+
+.EnterEmail:focus{
+    outline: none;
+}
+
+.EnterPassword{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    border-radius: 10rem;
+    height: 3rem;
+    width: 100%;
+    border: none;
+
+}
+
+input[type="email"], input[type="password"] {
+    padding-left: 1rem;
+}
+
+.EnterPassword:focus{
+    outline: none;
+}
+
+.ButtonIn{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    top: 2rem;
+}
+
+.LoginButton{
+    border: none;
+    border-radius: 50rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: white;
+    box-shadow: 0rem 0.2rem;
+    padding: 1rem 3rem;
+}
+
+.LoginButton:focus{
+    outline: none;
+    padding: 1.05rem 3.15rem;
+}
+
+.LoginButton:hover{
+    color: rgb(151, 199, 215);;
+}
+
+.Register{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    top: 4.2rem;
+}
+
+.LoginTitle{
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Logo{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+img{
+    user-select: none;
+}
+
+@keyframes BodyBackground {
+    from {
+            background-color: rgb(26, 29, 33);
+         }
+    to   {
+            background-color: rgb(33, 30, 40);
+         }
+}
+
+@keyframes LoginBackground {
+    from {
+            background-color: rgb(33, 30, 40);
+         }
+    to   {
+            background-color: rgb(26, 29, 33);
+         }
+}
