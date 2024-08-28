@@ -47,7 +47,7 @@ session_start();
         <?php
             if (isset($_SESSION['UserID'])):
         ?>
-        <a href="Settings.php"><p id="DisplayedUserName" class="LoginIcon"><?php echo $_SESSION['FirstName'] . " " . $_SESSION['LastName'];?></p></a>
+        <a href="Logout.php"><p id="DisplayedUserName" class="LoginIcon">Logout</p></a>
 
         <?php else: ?>
             <div class="LoginIcon">
@@ -58,28 +58,6 @@ session_start();
         ?>
 
     </header>
-
-    <section>
-        <article>
-            <h1 class="Welcome">
-                WELCOME
-            </h1>
-            
-            <p class="Text">
-                This website showcases my journey and achievements, built entirely using my web development skills.
-                Explore my education, skills, experience, and more to learn about my background and expertise. Thank you for visiting!
-
-            </p>
-        </article>
-    </section>
-
-    <aside>
-        <div class="LinksContainer">
-            <a href="https://www.linkedin.com/in/aashiq-dina-339842227/" class="LinkedIn">My LinkedIn</a>
-            <a href="ViewBlog.php" class="Blog">Blog</a>
-            <a href="https://github.com/AashiqDina" class="Github">My Github</a>
-        </div>
-    </aside>
 
 
 </body>

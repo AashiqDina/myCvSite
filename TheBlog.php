@@ -1,14 +1,14 @@
 <?php
-
+session_start();
 include('Conn.php');
 
 $Title = $_GET ["Title"];
 $BodyText = $_GET ["UserText"];
-$Name = "$_SESSION[UserName]";
+$UserID = $_SESSION['UserID'];
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET'){
 
-$sql = "INSERT INTO Blog (Title, BodyText, DateAndTime, Name) VALUES ('$Title', '$BodyText', NOW() , '$Name')";
+$sql = "INSERT INTO TheBlog (Title, BodyText, DateAndTime, UserID) VALUES ('$Title', '$BodyText', NOW() , $UserID)";
  if ($conn->query($sql) === TRUE) {
 
 echo "User Posted";

@@ -61,100 +61,6 @@ img{
     user-select: none;
 }
 
-#BlogForm{
-    position: relative;
-    display: flex;             
-    flex-wrap: wrap;           
-    list-style-type: none;   
-    color: white;
-    box-shadow: 0rem 0.3rem;
-    width: 30rem;
-    margin: 0 auto;
-    border-radius: 10rem;
-    top: 4rem;
-    padding-bottom: 3rem;
-}
-
-.AddBlog{
-    margin: 0 auto;
-}
-
-input[type="text"]{
-    padding-left: 0.5rem;
-}
-
-.InputText{
-    padding-left: 0.5rem;
-    border-radius: 3rem;
-    text-align: center;
-    width: 100%;
-    height: 6rem;
-    border: none;
-}
-
-.InputText:focus{
-    outline: none;
-}
-
-.InputTitle:focus{
-    outline: none;
-}
-
-.LoginButton{
-    border: none;
-    border-radius: 50rem;
-    animation-name: BodyBackground;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    color: white;
-    box-shadow: 0rem 0.2rem;
-    padding: 1rem 3rem;
-    display: flex;             
-    flex-wrap: wrap;           
-    list-style-type: none;     
-}
-
-.LoginButton:focus{
-    outline: none;
-    padding: 1.05rem 3.15rem;
-}
-
-.ClearButton{
-    border: none;
-    border-radius: 50rem;
-    animation-name: BodyBackground;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    color: white;
-    box-shadow: 0rem 0.2rem;
-    padding: 1rem 3rem;
-    display: flex;             
-    flex-wrap: wrap;           
-    list-style-type: none;     
-}
-
-.ClearButton:focus{
-    outline: none;
-    padding: 1.05rem 3.15rem;
-}
-
-
-.BlogTitle{
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-}
-
-.InputTitle{
-    border-radius: 10rem;
-    border: none;
-    text-align: center;
-    width: 100%;
-    height: 2rem;
-}
-
 .Welcome{
     position: relative;
     top: 5rem;
@@ -187,14 +93,39 @@ input[type="text"]{
     font-family: "Gill Sans", sans-serif;
 }
 
-.TheLoginIconImage{
-    width: 2.5rem;
+.Logout{
+    display: none;
+}
+
+.LinkedInContainer{
+    display: flex;
+    justify-content: left;
+    align-items: left;
 }
 
 .UserMenu{
     background-color: white;
     width: 2rem;
     height: 2rem;
+}
+
+.DownTriangle{
+    display: none;
+}
+
+.LinkedIn{
+    position: relative;
+    top: 10rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
 }
 
 .LinksContainer{
@@ -208,6 +139,42 @@ input[type="text"]{
     padding: 1rem 3.5rem; /* Add some padding inside each link */
     margin: 0 2.5rem; /* Adjust this value to control the space between links */
     border-radius: 5rem; /* Optional: Rounded corners for the links */
+}
+
+.Blog{
+    position: relative;
+    top: 10rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.GithubContainer{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.Github{
+    position: relative;
+    top: 10rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
 }
 
 @media (max-width: 950px) {

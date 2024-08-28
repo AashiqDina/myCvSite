@@ -89,13 +89,14 @@ img{
     justify-content: flex-end; 
     right: 1rem;
     justify-content: space-between;
-    padding: 1.2rem;
+    padding-left: 1.2rem;
     font-family: "Gill Sans", sans-serif;
 }
 
-.LoginIconImage{
-    width: 2.5rem
+.TheLoginIconImage{
+    width: 2.5rem;
 }
+
 
 .Logout{
     display: none;
@@ -105,6 +106,12 @@ img{
     display: flex;
     justify-content: left;
     align-items: left;
+}
+
+.UserMenu{
+    background-color: white;
+    width: 2rem;
+    height: 2rem;
 }
 
 .LinkedIn{
