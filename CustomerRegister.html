@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Name</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/Login.css">
+
+
+</head>
+<body>
+    <header>
+        <hgroup class="Title">
+          <h1><a href="Homepage.html">Software Name</a></h1> <!-- maybe Paw - pet service -->
+        </hgroup>
+        <div class="Logo">
+        </div>
+        <div class="Links">
+            <nav>
+                <ul>
+                    <a href="/Login.html" class="Login">Login</a>
+                    <a href="/Services.html" class="Services">Services</a>
+                    <a href="/Support.html" class="Support">Support</a>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <a href=""><img src="imgs/MagGlass.png" class="searchIcon" alt="Search"></a>
+        </div>
+        <div>
+            <a href=""><img src="imgs/Settings.png" alt="settings" class="settingsIcon"></a>
+        </div>
+    </header>
+
+    <section class="TitleBox"></section>
+    <form method="post" action="http://localhost:8888/Login.php" id="LoginForm">
+        <fieldset class="ToLogin">
+            <p>
+                <legend class="LoginTitle">Register</legend>
+                <div class="Line"></div>
+                <br/>
+                <input name="firstName" placeholder="firstName" class="enterFirstName">
+                <br/>
+                <input name="lastName" placeholder="lastName" class="enterLastName">
+                <br/>
+                <input type="email" name="Email" placeholder="Email" class="enterEmail">
+                <br/>
+                <input type="tel" name="phoneNumber" placeholder="phoneNumber" class="phoneNumber">
+                <br/>
+                <input type="password" name="Password" placeholder="Password" class="enterPassword">
+                <br/>
+                <input type="password" name="confirmPassword" placeholder="confirmPassword" class="confirmPassword">
+                <div>
+                    <button type="submit" class="LoginButton">Register</button>
+
+                </div>
+            </p>
+
+        </fieldset>
+    </form>
+    <aside>
+    </aside>
+
+
+</body>
+</html>

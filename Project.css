@@ -136,10 +136,10 @@ img{
 }
 
 .LinksContainer a{
-    text-decoration: none; 
-    padding: 1rem 3.5rem;
-    margin: 0 2.5rem;
-    border-radius: 5rem;
+    text-decoration: none; /* Remove underline from links */
+    padding: 1rem 3.5rem; /* Add some padding inside each link */
+    margin: 0 2.5rem; /* Adjust this value to control the space between links */
+    border-radius: 5rem; /* Optional: Rounded corners for the links */
 }
 
 .Blog{
@@ -176,6 +176,21 @@ img{
     font-size: 1.2rem;
     box-shadow: 0rem 0.3rem;
     font-family: "Gill Sans", sans-serif;
+}
+
+.title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.text {
+    margin: 0;
+    font-size: 1.3rem;
+    flex-basis: 100%;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal
 }
 
 @media (max-width: 950px) {

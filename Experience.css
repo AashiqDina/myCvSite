@@ -136,11 +136,13 @@ img{
 }
 
 .LinksContainer a{
-    text-decoration: none; 
-    padding: 1rem 3.5rem;
-    margin: 0 2.5rem;
-    border-radius: 5rem;
+    text-decoration: none; /* Remove underline from links */
+    padding: 1rem 3.5rem; /* Add some padding inside each link */
+    margin: 0 2.5rem; /* Adjust this value to control the space between links */
+    border-radius: 5rem; /* Optional: Rounded corners for the links */
 }
+
+
 
 .Blog{
     position: relative;
@@ -177,6 +179,118 @@ img{
     box-shadow: 0rem 0.3rem;
     font-family: "Gill Sans", sans-serif;
 }
+
+
+.LinksContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.LinksContainer a{
+    text-decoration: none;
+    padding: 1rem 3.5rem;
+    margin: 0 2.5rem;
+    border-radius: 5rem;
+}
+
+.GCSEs{
+    position: relative;
+    top: 10rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.GCSEs2{
+    position: relative;
+    top: 15rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.ALevels{
+    position: relative;
+    top: 10rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.ALevels2{
+    position: relative;
+    top: 15rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.GithubContainer{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.University{
+    position: relative;
+    top: 10rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.University2{
+    position: relative;
+    top: 15rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
 
 @media (max-width: 950px) {
     header {

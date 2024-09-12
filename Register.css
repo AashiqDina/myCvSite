@@ -1,0 +1,286 @@
+header{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50rem;
+    padding: 0.89rem;
+    background-image: linear-gradient(#ceb39c);
+}
+
+.Logo{
+    max-width: 17rem;
+    height: auto;
+    position: relative;
+    top: -1rem;
+    right: 2rem;
+    user-select: none;
+}
+
+.Line2{
+    position: relative;
+    top: -22rem;
+    left: 19rem;
+    background-color: rgb(0, 0, 0);
+    width: 39rem;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display:inline;
+    padding: 0.625rem 1.2rem;
+}
+
+.Links{
+    position: relative;
+    font-size: 1.8rem;
+    font-family: "Varela Round";
+    color: rgb(0, 0, 0);
+    top: -19rem;
+    left: 16.7rem;
+    max-width: 40rem;
+    z-index: 1;
+    user-select: none;
+}
+
+.Login{
+    position: relative;
+    font-size: 1.875rem;
+    font-family: "Varela Round";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    top: -23rem;
+    left: 62.5rem;
+    z-index: 1;
+    user-select: none;
+    background-color: #F8EDEB;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    display: inline;
+}
+
+.LoginLogo{
+    max-width: 1.5rem;
+    height: auto;
+    position: relative;
+    top: 0.2rem;
+    left: 0.25rem;
+}
+
+.searchIcon{
+    position: relative;
+    top: 0.8rem;
+    right: 0.5rem;
+    max-width: 3.125rem;
+    height: auto;   
+    user-select: none;
+    display: inline-block;
+    user-select: none;
+}
+
+.Line{
+    position: absolute;
+    top: 6rem;
+    left: 4.4rem;
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20rem;
+    user-select: none;
+
+}
+
+.PetMinderChoice{
+    position: relative;
+    top: 12rem;
+    left: 13rem;
+    background: linear-gradient(180deg, #FEC89A,#FFE5D9, #FEC89A);
+    background-size: 400% 400%;
+    animation: rBackground 15s ease infinite;
+    height: 30rem;
+    width: 22rem;
+    border-radius: 7rem;
+
+}
+
+.PetMinderImage{
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+    max-width: 15rem;
+    height: auto;
+    user-select: none;
+}
+
+.pmTitle{
+    position: relative;
+    top: 1rem;
+    left: 4.5rem;
+    font-size: 2rem;
+    width: 13rem;
+    font-family: "Varela Round";
+    text-align: center;
+    z-index: 2;
+}
+
+.PetOwnerChoice{
+    position: relative;
+    top: -19.2rem;
+    left: 43rem;
+    background: linear-gradient(180deg, #FEC89A,#FFE5D9, #FEC89A);
+    background-size: 400% 400%;
+    animation: rBackground 15s ease infinite;
+    height: 30rem;
+    width: 22rem;
+    border-radius: 7rem;
+
+}
+
+.PetOwnerImage{
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+    max-width: 19rem;
+    height: auto;
+    user-select: none;
+}
+
+.poTitle{
+    position: relative;
+    top: 1rem;
+    left: 4.5rem;
+    font-size: 2rem;
+    width: 13rem;
+    font-family: "Varela Round";
+    text-align: center;
+}
+
+body{
+    background-color: #e7d9cd;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.BoxOne{
+    position: relative;
+    top: -30rem;
+    left: 57rem;
+    background: linear-gradient(180deg, #FFB179,#FFE5D9, #FFB179);
+    background-size: 400% 400%;
+    animation: rBackground 15s ease infinite;
+    height: 13rem;
+    width: 13rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+.BoxTwo{
+    position: relative;
+    top: -67rem;
+    left: 29rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: rBackground 15s ease infinite;
+    height: 10rem;
+    width: 10rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: 1;
+}
+
+.BoxThree{
+    position: relative;
+    top: -69rem;
+    left: 32rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: rBackground 15s ease infinite;
+    height: 7rem;
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: 0;
+}
+
+.BoxFour{
+    position: relative;
+    top: -60rem;
+    left: 9rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: rBackground 15s ease infinite;
+    height: 7rem;
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+.BoxFive{
+    position: relative;
+    top: -72rem;
+    left: 39rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 7rem;
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: 1;
+}
+
+.BoxSix{
+    position: relative;
+    top: -101rem;
+    left: 54rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 16rem;
+    width: 16rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+.PawsOne{
+    position: relative;
+    max-width: 18rem;
+    top: -93rem;
+    left: -1rem;
+    z-index: -2;
+}
+
+@keyframes rBackground {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}

@@ -71,17 +71,6 @@ img{
     color: white;
 }
 
-.Text{
-    position: relative;
-    top: 5rem;
-    color: rgb(159, 191, 201);
-    width: 50%; 
-    margin: 0 auto; 
-    text-align: center; 
-    padding: 10px; 
-
-}
-
 .LoginIcon{
     position: relative;
     display: flex;          
@@ -114,9 +103,30 @@ img{
     height: 2rem;
 }
 
-.LinkedIn{
+.GCSEs{
     position: relative;
-    top: 10rem;
+    top: 8rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+}
+
+a:hover{
+    color: rgb(151, 199, 215);
+    text-decoration: none;
+}
+
+.GCSEs2{
+    position: relative;
+    top: 12rem;
     animation-name: BodyBackground;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -129,22 +139,56 @@ img{
     font-family: "Gill Sans", sans-serif;
 }
 
+.Text{
+    position: relative;
+    top: 5rem;
+    color: rgb(159, 191, 201);
+    width: 50%; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 10px; 
+
+}
+
 .LinksContainer{
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+}
+
+.LinksContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .LinksContainer a{
-    text-decoration: none; 
+    text-decoration: none;
     padding: 1rem 3.5rem;
     margin: 0 2.5rem;
     border-radius: 5rem;
 }
 
-.Blog{
+.ALevels{
     position: relative;
-    top: 10rem;
+    top: 8rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 1.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+}
+
+.ALevels2{
+    position: relative;
+    top: 12rem;
     animation-name: BodyBackground;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -163,9 +207,25 @@ img{
     align-items: right;
 }
 
-.Github{
+.University{
     position: relative;
-    top: 10rem;
+    top: 8rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+}
+
+.University2{
+    position: relative;
+    top: 12rem;
     animation-name: BodyBackground;
     animation-duration: 10s;
     animation-iteration-count: infinite;

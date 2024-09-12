@@ -20,7 +20,7 @@ session_start();
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" defer></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="Uni.css">
  
 </head>
 
@@ -34,7 +34,7 @@ session_start();
         <div class="container">
             <nav>
                 <ul class="Links">
-                <li><a href="AboutMe.php">About Me</a></li>
+                    <li><a href="AboutMe.php">About Me</a></li>
                     <li><a href="Education.php">Education</a></li>
                     <li><a href="Experience.php">Experience</a></li>
                     <li><a href="Skills.php">Skills</a></li>
@@ -48,7 +48,7 @@ session_start();
         <?php
             if (isset($_SESSION['UserID'])):
         ?>
-        <a href="Logout.php"><p id="DisplayedUserName" class="LoginIcon">Logout</p></a>
+        <a href="Settings.php"><p id="DisplayedUserName" class="LoginIcon"><?php echo $_SESSION['FirstName'] . " " . $_SESSION['LastName'];?></p></a>
 
         <?php else: ?>
             <div class="LoginIcon">
@@ -59,6 +59,29 @@ session_start();
         ?>
 
     </header>
+
+    <section>
+        <article>
+                <h1 class="Welcome">
+                    University
+                </h1>
+        </article>
+    </section>
+
+    <aside>
+        <div class="LinksContainer2">
+            <h2 class="University2">Bachelor of Science with Honours, 
+            </br> Second Class (Upper Division) 
+            </br> in Computer Science (69.7%)
+            </br> </br> 
+            ________________________________________________
+            </br> 
+            </br> Procedural Programming - B (64%) || Computer Systems and Networks - A (81.2%) || Logic and Discrete Structures - A (74.7%) || Object-Oriented Programming - B (67.4%) || Fundamentals of Web Technology - A (81.8%) || Information System Analysis - B (65%) || Automata and Formal Languages - A (77.3%) || Professional and Research Practice - A (88.3%) ||
+            Software Engineering - A (73.6%) || Software Engineering Project - A (73.2%) || Probability and Matricies - (73%) || Operating Systems - A (76.2%) || Database Systems - B (63.1%) || Graphical User Interface - A (81.4%) || Internet Protocols and Applications - A (94.1%) || Algorithms and Data Structures - A (82.1%)
+            Computer Graphics - C (59.9%) || Project - B (61.7%) || Bayesian Decision and Risk Analysis - B (60.1%) || Computability, Complexity and Algorithms - A (70.8%) || Multi-Platform Game Development - A (72.2%) || Neural Networks and Deep Learning - C (54%) || User Experience Design - A (81.3%)
+        </h2>
+        </div>
+    </aside>
 
 
 </body>

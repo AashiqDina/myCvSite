@@ -1,0 +1,559 @@
+header{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50rem;
+    padding: 0.89rem;
+    background-image: linear-gradient(#ceb39c);
+}
+
+.Logo{
+    max-width: 17rem;
+    height: auto;
+    position: relative;
+    top: -1rem;
+    right: 2rem;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display:inline;
+    padding: 0.625rem 1.2rem;
+}
+
+.BoxOne{
+    position: relative;
+    top: -20rem;
+    left: 44rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 15rem;
+    width: 15rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+.BoxTwo{
+    position: relative;
+    top: -20rem;
+    left: 16rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 10rem;
+    width: 10rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: 0;
+}
+
+.BoxThree{
+    position: relative;
+    top: -22rem;
+    left: 18rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 7rem;
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+
+.Login{
+    position: relative;
+    font-size: 1.875rem;
+    font-family: "Varela Round";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    top: -15rem;
+    left: 62.5rem;
+    z-index: 1;
+    user-select: none;
+    background-color: #F8EDEB;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    display: inline;
+}
+
+.MyProf{
+    position: relative;
+    font-size: 1.875rem;
+    font-family: "Varela Round";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    top: -15rem;
+    left: 60.5rem;
+    z-index: 1;
+    user-select: none;
+    background-color: #F8EDEB;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    display: inline;
+}
+
+.LoginLogo{
+    max-width: 1.5rem;
+    height: auto;
+    position: relative;
+    top: 0.28rem;
+    left: 0.35rem;
+}
+
+.ProfLogo{
+    max-width: 2rem;
+    height: auto;
+    position: relative;
+    top: 0.2rem;
+    left: 0.35rem;
+}
+
+.Search{
+    position: relative;
+    top: -15.5rem;
+    left: 18rem;
+
+}
+
+.SearchBar{
+    border-radius: 1.5rem 0rem 0rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    height: 3rem;
+    width: 37rem;
+}
+
+.SearchSubmit{
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+    border: none;
+    font-size: 1rem;
+    height: 3.13rem;
+    position: relative;
+}
+
+.PostOne{
+
+    position: relative;
+    top: -8rem;
+    left: 3rem;
+    border-radius: 6rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: PostBackground 15s ease infinite;
+    width: 70rem;
+    height: 12rem;
+
+}
+
+.TitleOne{
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+    font-family: "Varela Round";
+    font-size: 3rem;
+}
+
+.BookSubmit1{
+    height: 4rem;
+    width: 14rem;
+    font-size: 2rem;
+    font-family: "Varela Round";
+    font-weight: bold;
+    background-color: #F8EDEB;
+    position: absolute;
+    bottom: 4rem;
+    left: 53rem;
+    color: rgb(0, 0, 0);
+    border-radius: 18rem;
+    user-select: none;
+    border: none;
+}
+
+.Price1{
+    position: relative;
+    top: -3.2rem;
+    left: 45rem;
+    font-family: "Varela Round";
+    font-size: 2.5rem;
+}
+
+.Location1{
+    position: relative;
+    top: -1.6rem;
+    left: 5rem;
+    font-family: "Varela Round";
+    font-size: 1.25rem;
+}
+
+.Desc1{
+    position: relative;
+    top: 0rem;
+    left: 5rem;
+    font-family: "Varela Round";
+    font-size: 1rem;
+    display: inline-block;
+    width: 37rem;
+    word-wrap: break-word;
+
+
+}
+
+.Jobs1{
+    position: relative;
+    top: -1.7rem;
+    left: 30rem;
+    font-family: "Varela Round";
+    font-size: 1.5rem;
+}
+
+
+.BoxOne{
+    position: absolute;
+    top: -4rem;
+    left: 65rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 10rem;
+    width: 10rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: 1;
+}
+
+.BoxTwo{
+    position: absolute;
+    top: -3rem;
+    left: 60rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 7rem;
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+.BoxThree{
+    position: absolute;
+    top: 6rem;
+    left: -1rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 7rem;
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+.PostTwo{
+
+    position: relative;
+    top: 4rem;
+    left: 0rem;
+    border-radius: 6rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: PostBackground 15s ease infinite;
+    width: 70rem;
+    height: 12rem;
+
+}
+
+.TitleTwo{
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+    font-family: "Varela Round";
+    font-size: 3rem;
+}
+
+.BookSubmit2{
+    height: 4rem;
+    width: 14rem;
+    font-size: 2rem;
+    font-family: "Varela Round";
+    font-weight: bold;
+    background-color: #F8EDEB;
+    position: absolute;
+    bottom: 4rem;
+    left: 53rem;
+    color: rgb(0, 0, 0);
+    border-radius: 18rem;
+    user-select: none;
+    border: none;
+}
+
+.Price2{
+    position: relative;
+    top: -3.2rem;
+    left: 45rem;
+    font-family: "Varela Round";
+    font-size: 2.5rem;
+}
+
+.Location2{
+    position: relative;
+    top: -1.6rem;
+    left: 5rem;
+    font-family: "Varela Round";
+    font-size: 1.25rem;
+}
+
+.Desc2{
+    position: relative;
+    top: 0rem;
+    left: 5rem;
+    font-family: "Varela Round";
+    font-size: 1rem;
+    display: inline-block;
+    width: 37rem;
+    word-wrap: break-word;
+
+
+}
+
+.Jobs2{
+    position: relative;
+    top: -1.7rem;
+    left: 30rem;
+    font-family: "Varela Round";
+    font-size: 1.5rem;
+}
+
+.BoxFour{
+    position: absolute;
+    top: 0rem;
+    left: 64rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 9rem;
+    width: 9rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+.BoxFive{
+    position: absolute;
+    top: 0rem;
+    left: -3rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 7rem;
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: 1;
+}
+
+.BoxSix{
+    position: absolute;
+    top: -1rem;
+    left: 0rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 4rem;
+    width: 4rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+
+
+
+.PostThree{
+
+    position: relative;
+    top: 4rem;
+    left: 0rem;
+    border-radius: 6rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: PostBackground 15s ease infinite;
+    width: 70rem;
+    height: 12rem;
+
+}
+
+.TitleThree{
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+    font-family: "Varela Round";
+    font-size: 3rem;
+}
+
+.BookSubmit3{
+    height: 4rem;
+    width: 14rem;
+    font-size: 2rem;
+    font-family: "Varela Round";
+    font-weight: bold;
+    background-color: #F8EDEB;
+    position: absolute;
+    bottom: 4rem;
+    left: 53rem;
+    color: rgb(0, 0, 0);
+    border-radius: 18rem;
+    user-select: none;
+    border: none;
+}
+
+.Price3{
+    position: relative;
+    top: -3.5rem;
+    left: 45rem;
+    font-family: "Varela Round";
+    font-size: 2.5rem;
+}
+
+.Location3{
+    position: relative;
+    top: -1.6rem;
+    left: 5rem;
+    font-family: "Varela Round";
+    font-size: 1.25rem;
+}
+
+.Desc3{
+    position: relative;
+    top: 0rem;
+    left: 5rem;
+    font-family: "Varela Round";
+    font-size: 1rem;
+    display: inline-block;
+    width: 37rem;
+    word-wrap: break-word;
+
+
+}
+
+.Jobs3{
+    position: relative;
+    top: -1.7rem;
+    left: 30rem;
+    font-family: "Varela Round";
+    font-size: 1.5rem;
+}
+
+.BoxSeven{
+    position: absolute;
+    top: 5rem;
+    left: 60rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 12rem;
+    width: 12rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+.BoxEight{
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 8rem;
+    width: 8rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+.BoxNine{
+    position: absolute;
+    top: 5rem;
+    left: -5rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 7rem;
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: 0;
+}
+
+
+
+
+
+
+button{
+    cursor: pointer;
+}
+
+body{
+    background-color: #e7d9cd;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+@keyframes PostBackground {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+

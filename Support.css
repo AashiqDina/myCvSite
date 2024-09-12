@@ -1,0 +1,305 @@
+header{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50rem;
+    padding: 0.89rem;
+    background-image: linear-gradient(#ceb39c);
+}
+
+.Logo{
+    max-width: 17rem;
+    height: auto;
+    position: relative;
+    top: -1rem;
+    right: 2rem;
+    user-select: none;
+}
+
+.Line2{
+    position: relative;
+    top: -22rem;
+    left: 19rem;
+    background-color: rgb(0, 0, 0);
+    width: 39rem;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20rem;
+}
+
+.MyProf{
+    position: relative;
+    font-size: 1.875rem;
+    font-family: "Varela Round";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    top: -23rem;
+    left: 61rem;
+    z-index: 1;
+    user-select: none;
+    background-color: #F8EDEB;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display:inline;
+    padding: 0.625rem 1.2rem;
+}
+
+.Links{
+    position: relative;
+    font-size: 1.8rem;
+    font-family: "Varela Round";
+    color: rgb(0, 0, 0);
+    top: -19rem;
+    left: 16.7rem;
+    max-width: 40rem;
+    z-index: 1;
+    user-select: none;
+}
+
+.Login{
+    position: relative;
+    font-size: 1.875rem;
+    font-family: "Varela Round";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    top: -23rem;
+    left: 62.5rem;
+    z-index: 1;
+    user-select: none;
+    background-color: #F8EDEB;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    display: inline;
+}
+
+.LoginLogo{
+    max-width: 1.5rem;
+    height: auto;
+    position: relative;
+    top: 0.2rem;
+    left: 0.25rem;
+}
+
+.searchIcon{
+    position: relative;
+    top: 0.8rem;
+    right: 0.5rem;
+    max-width: 3.125rem;
+    height: auto;   
+    user-select: none;
+    display: inline-block;
+    user-select: none;
+}
+
+.Line{
+    position: absolute;
+    top: 6rem;
+    left: 4.4rem;
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20rem;
+    user-select: none;
+
+}
+
+
+.BoxOne{
+    position: relative;
+    top: -20rem;
+    left: 44rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 15rem;
+    width: 15rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+.BoxTwo{
+    position: relative;
+    top: -20rem;
+    left: 16rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 10rem;
+    width: 10rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: 0;
+}
+
+.BoxThree{
+    position: relative;
+    top: -22rem;
+    left: 18rem;
+    background: linear-gradient(180deg, #FFB179,#FFD7BA, #FFB179);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 7rem;
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+    z-index: -1;
+}
+
+
+
+
+
+
+form{
+    position: absolute;
+    top: 14rem;
+    left: 22.656rem;
+    user-select: none;
+    box-shadow: none;
+
+}
+
+.SupportPage{
+    background: linear-gradient(180deg, #FEC89A,#FFE5D9, #FEC89A);
+    background-size: 400% 400%;
+    animation: LoginBackground 15s ease infinite;
+    height: 22rem;
+    width: auto;
+    padding: 3.125rem 6.25rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5rem;
+    user-select: none;
+    box-shadow: none;
+    border: none;
+}
+
+.Issue{
+    position: relative;
+    top: 4rem;
+    height: 30px;
+    width: 19rem;
+    border-radius: 20px;
+    user-select: none;
+    border: none;
+    text-align: center;
+
+}
+
+.IssueDescription{
+    position: relative;
+    top: 8rem;
+    height: 5rem;
+    width: 19rem;
+    border-radius: 20px;
+    user-select: none;
+    border: none;
+    text-align: center;
+    resize: vertical;
+
+}
+
+.Line{
+    position: absolute;
+    top: 4.5rem;
+    left: 8rem;
+    background-color: #FFC398;
+    font-family: "Varela Round";
+    width: 50%;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20rem;
+    user-select: none;
+    z-index: 1;
+
+
+}
+
+.Submit{
+    height: 5rem;
+    width: 18rem;
+    font-size: 2rem;
+    font-family: "Varela Round";
+    font-weight: bold;
+    background-color: #FFC398;
+    position: absolute;
+    bottom: 3rem;
+    left: 7.2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 18rem;
+    user-select: none;
+    border: none;
+    
+
+}
+
+.SupportTitle{
+    position: absolute;
+    font-family: "Varela Round";
+    top: 20px;
+    left: 11.8rem;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    z-index: 1;
+
+}
+
+.PawsOne{
+    position: relative;
+    max-width: 18rem;
+    top: -3rem;
+    left: -1rem;
+    
+}
+
+.IssueTitle{
+    position: absolute;
+    font-family: "Varela Round";
+    top: 6rem;
+    left: 14rem;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+.IssueDescriptionTitle{
+    position: absolute;
+    font-family: "Varela Round";
+    top: 12rem;
+    left: 10rem;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    background-color: #e7d9cd;
+    max-width: 100%;
+    overflow-x: hidden;
+}

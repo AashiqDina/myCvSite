@@ -77,11 +77,12 @@ for ($i=1; $i < $highestId + 1; $i++) {
 <div class="container">
     <nav>
         <ul class="Links">
-            <li><a href="">About Me</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Projects</a></li>
+            <li><a href="AboutMe.php">About Me</a></li>
+            <li><a href="Education.php">Education</a></li>
+            <li><a href="Experience.php">Experience</a></li>
+            <li><a href="Skills.php">Skills</a></li>
+            <li><a href="Project.php">Projects</a></li>
+            <li><a href="Other.php">Other</a></li>
         </ul>
     </nav>
 </div>
@@ -149,8 +150,10 @@ for ($i=1; $i < $highestId + 1; $i++) {
                 height: 10rem;
                 margin: 0 auto;
                 border-radius: 10rem;
-                background-color: rgb(26, 29, 33);
-
+                animation-name: BodyBackground;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
             }
             <?php echo ".Title" . $i;?>{
                 position: relative;
@@ -170,6 +173,15 @@ for ($i=1; $i < $highestId + 1; $i++) {
                 margin: 0 auto;
                 font-size: 1rem;
                 text-align: center;
+            }
+
+            @keyframes BodyBackground {
+                from {
+                        background-color: rgb(26, 29, 33);
+                    }
+                to   {
+                        background-color: rgb(33, 30, 40);
+                    }
             }
          </style>
         <?php

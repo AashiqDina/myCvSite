@@ -34,11 +34,12 @@ session_start();
         <div class="container">
             <nav>
                 <ul class="Links">
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Education</a></li>
-                    <li><a href="">Experience</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Projects</a></li>
+                    <li><a href="AboutMe.php">About Me</a></li>
+                    <li><a href="Education.php">Education</a></li>
+                    <li><a href="Experience.php">Experience</a></li>
+                    <li><a href="Skills.php">Skills</a></li>
+                    <li><a href="Project.php">Projects</a></li>
+                    <li><a href="Other.php">Other</a></li>
                 </ul>
             </nav>
         </div>
