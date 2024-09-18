@@ -66,7 +66,7 @@ session_start();
                 </h1>
         </article>
     </section>
-
+<a href="FinalYearProject.php">
     <div class="container2">
     <div class="row">
         <div class="col-md-6">
@@ -77,6 +77,7 @@ session_start();
         </div>
     </div>
 </div>
+</a>
 <a href="Homepage.php">
 <div class="container3">
     <div class="row">
@@ -90,28 +91,30 @@ session_start();
     </div>
 </div>
 </a>
-
+<a href="https://github.com/AashiqDina/Uni_Neural_Networks_Project/blob/main/NeuralNetworksProject.ipynb">
 <div class="container4">
     <div class="row">
         <div class="col-md-6">
             <h1 class="title">Neural Networks Project</h1>
         </div>
         <div class="col-md-6 text-md-right">
-            <p class="text">I am experienced in JavaScript, with a strong ability to create dynamic and interactive web applications. I enjoy using JavaScript to enhance user experiences and bring creative ideas to life.</p>
+            <p class="text">For my neural networks project, I developed a simple classifier that achieves over 70% accuracy in identifying results. You can see the code and results by clicking here, though it doesn't classify with 100% accuracy, it demonstrates solid performance for its design.</p>
         </div>
     </div>
 </div>
-
+</a>
+<a href="cgProject.php">
 <div class="container5">
     <div class="row">
         <div class="col-md-6">
             <h1 class="title">Computer Graphics Work</h1>
         </div>
         <div class="col-md-6 text-md-right">
-            <p class="text">I have a strong foundation in HTML, allowing me to structure web content effectively and create well-organized, responsive layouts. I use HTML to build clean, accessible, and user-friendly websites as seen.</p>
+            <p class="text">In my computer graphics work, I used JavaScript and GLSL to create visual projects that demonstrate my skills in both languages. You can explore these creations by clicking here to see the results of my efforts.</p>
         </div>
     </div>
 </div>
+</a>
 
 <a href="https://aashiqdina.github.io/Group_Y_GameProjectBuild/build/index.html">
     <div class="container6">
@@ -125,7 +128,7 @@ session_start();
         </div>
     </div>
 </a>
-
+<a href="https://github.com/AashiqDina/FirstEverObjectOrientedProject">
 <div class="container7">
     <div class="row">
         <div class="col-md-6">
@@ -136,28 +139,33 @@ session_start();
         </div>
     </div>
 </div>
-
+</a>
+<a href="https://github.com/AashiqDina/OSProjects">
 <div class="container8">
     <div class="row">
         <div class="col-md-6">
             <h1 class="title">OS Project</h1>
         </div>
         <div class="col-md-6 text-md-right">
-            <p class="text">I have a solid understanding of C programming, with experience in writing efficient, low-level code. I use C to develop performance-driven applications and work closely with system resources for optimized solutions.</p>
+            <p class="text">
+            I created a Python tool that interacts with the Linux terminal to manage and manipulate system files. This project demonstrates my skills in Python and Linux-based file operations. This can be seen by clicking here.</p>
         </div>
     </div>
 </div>
+</a>
+<a href="https://github.com/AashiqDina/farming-wa2">
 <div class="container9">
     <div class="row">
         <div class="col-md-6">
              <h1 class="title">GUI Project</h1>
         </div>
         <div class="col-md-6 text-md-right">
-            <p class="text">I am experienced in C#, with experience in building robust applications using object-oriented programming principles. I enjoy using C# to develop scalable software solutions, particularly in the .NET framework.</p>
+            <p class="text">I collaborated with a team to learn React and develop a user-friendly weather app, utilizing a weather API to display real-time data. This project honed both my React skills and API integration abilities.</p>
         </div>
     </div>
 </div>
-
+</a>
+<a href="https://github.com/AashiqDina/FirstDatabaseProject">
 <div class="container10">
     <div class="row">
         <div class="col-md-6">
@@ -165,11 +173,11 @@ session_start();
         </div>
         <div class="col-md-6 text-md-right">
             <p class="text">
-            I also have skills in GLSL, allowing me to write efficient shaders for real-time graphics rendering. I enjoy using GLSL to create visually striking effects and optimize performance in 3D graphics applications.</p>
+            I worked closely with a team to design and implement a comprehensive SQL database, ensuring all tables and relationships were properly structured and linked for optimal functionality.</p>
         </div>
     </div>
 </div>
-
+</a>
 <?php
     $NumberOfSkills = 9;
 

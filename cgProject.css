@@ -1,0 +1,344 @@
+header{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    color: azure;
+    padding: 0.9em;
+    display: flex;
+    transition: height 0.3s ease;
+    white-space: nowrap;
+}
+
+body{
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.HeaderContainer{
+    display: flex;
+    align-items: center; 
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(151, 199, 215);
+    text-decoration: none;
+}
+
+
+.Title{
+    position: relative;
+    left: 1.5rem;
+    font-size: 2.5rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Links{
+    position: relative;
+    font-size: 1.5rem;
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(240, 248, 255);
+    left: 2.5rem;
+    top: 0.7rem;
+    display: flex;             
+    flex-wrap: wrap;           
+    list-style-type: none;                 
+    padding: 0.2rem;
+}
+
+.Links li {
+    margin: 0 1rem;    
+}
+
+img{
+    user-select: none;
+}
+
+.Welcome{
+    position: relative;
+    top: 5rem;
+    display: flexbox;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
+.Text{
+    position: relative;
+    top: 5rem;
+    color: rgb(159, 191, 201);
+    width: 50%; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 10px; 
+
+}
+
+.LoginIcon{
+    position: relative;
+    display: flex;          
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+    right: 1rem;
+    justify-content: space-between;
+    padding-left: 1.2rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.TheLoginIconImage{
+    width: 2.5rem;
+}
+
+
+.Logout{
+    display: none;
+}
+
+.LinkedInContainer{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.UserMenu{
+    background-color: white;
+    width: 2rem;
+    height: 2rem;
+}
+
+.LinkedIn{
+    position: relative;
+    top: 10rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.LinkedIn2{
+    position: relative;
+    top: 12rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.LinkedIn3{
+    position: relative;
+    top: 14rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.LinkedIn4{
+    position: relative;
+    top: 16rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.LinksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.LinksContainer a{
+    text-decoration: none; 
+    padding: 1rem 3.5rem;
+    margin: 0 2.5rem;
+    border-radius: 5rem;
+}
+
+.Blog{
+    position: relative;
+    top: 10rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Blog2{
+    position: relative;
+    top: 12rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Blog3{
+    position: relative;
+    top: 14rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Blog4{
+    position: relative;
+    top: 16rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.GithubContainer{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.Github{
+    position: relative;
+    top: 10rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Github2{
+    position: relative;
+    top: 12rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Github3{
+    position: relative;
+    top: 14rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Github4{
+    position: relative;
+    top: 16rem;
+    animation-name: BodyBackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: azure;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+@media (max-width: 950px) {
+    header {
+        height: 7.5rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 868px) {
+    header {
+        height: 10rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 17rem;
+        padding: 2.5rem;
+    }
+}
+
+@keyframes BodyBackground {
+    from {
+            background-color: rgb(26, 29, 33);
+         }
+    to   {
+            background-color: rgb(33, 30, 40);
+         }
+}
